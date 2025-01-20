@@ -2,8 +2,6 @@ note = ["username" ,
 
 "title",
 
-["title 1", "title 2", "title 3"],
-
 "content",
 
 "status",
@@ -12,9 +10,6 @@ note = ["username" ,
 
 "issue_date"
         ]
-
-
-print(note)
 
 username = input( 'Введите Ваше имя: ')
 print( username )
@@ -39,4 +34,5 @@ print(created_date)
 issue_date = input("дата истечения заметки в формате день-месяц-год: ")
 print(issue_date)
 
-# это задание не поняла как делать. Уверена, что непраильно сделала
+note.insert(2,["Заголовок1", "Заголовок2", "Заголовок3"])
+print(note)
